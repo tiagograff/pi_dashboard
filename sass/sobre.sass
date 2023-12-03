@@ -1,0 +1,28 @@
+@import 'variables'
+.bodyAbout
+    background: $backgroundAbout
+    background-repeat: no-repeat
+    height: 100vh
+
+.mainAbout
+    &-menuAbout
+        display: flex
+        flex-direction: row
+        align-items: center
+        justify-content: center
+        margin: 20px 0 0 20px
+        position: relative
+        text-align: center
+        &-returnArrow
+            width: 2.5rem
+            filter: invert(90%)
+            position: absolute
+            top: 20px
+            left: 20px
+            &:hover
+                filter: invert(50%)
+        &-title
+            color: $white-color
+            font-family: $font-index
+            font-weight: 100
+            margin-top: 20px
