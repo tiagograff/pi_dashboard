@@ -3,25 +3,66 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>I/O Tempo</title>
+    <title>Sobre Nós</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/caixaInterativa.css" />
   </head>
   <body class="bodyAbout">
+    <header class="headerAbout">
+      <div class="headerAbout-menuAbout">
+        <a href="./index.html">
+          <img
+            class="headerAbout-menuAbout-returnArrow"
+            src="./img/back.png"
+            alt="arrow to return"
+        /></a>
+        <div><h1 class="headerAbout-menuAbout-title">IoTempo</h1></div>
+      </div>
+    </header>
     <main class="mainAbout">
-      <header>
-        <div class="mainAbout-menuAbout">
-          <a href="./index.html">
+      <hr class="mainAbout-hr" width="50%" noshade />
+      <img class="mainAbout-logo" src="./img/logomarca.png" alt="logomarca" />
+      <section class="mainAbout-aboutUs" id="aboutUs">
+        <div>
+          <h2 class="mainAbout-aboutUs-title">Sobre Nós:</h2>
+          <div class="mainAbout-aboutUs-box">
+            <h3 class="mainAbout-aboutUs-box-subtitle">Quem somos?</h3>
             <img
-              class="mainAbout-menuAbout-returnArrow"
-              src="./img/back.png"
-              alt="arrow to return"
-          /></a>
-          <div><h1 class="mainAbout-menuAbout-title">
-            I/O Tempo
-          </h1></div>
-          
+              class="mainAbout-aboutUs-box-img"
+              src="./img/arrow-down.svg"
+              alt=""
+            />
+            <p class="mainAbout-aboutUs-box-paragraph">
+              Christian Candeloni, Christian Michelson, Eduardo Manhabosco,
+              Laisa Pletsch, Tiago Pinz
+            </p>
+          </div>
+          <div class="mainAbout-aboutUs-box">
+            <h3 class="mainAbout-aboutUs-box-subtitle">O problema</h3>
+            <img
+              class="mainAbout-aboutUs-box-img"
+              src="./img/arrow-down.svg"
+              alt=""
+            />
+            <p class="mainAbout-aboutUs-box-paragraph">
+              O conhecimento sobre o estado do clima é um fator importante para nossas decisões, porém a falta de uma projeção acertivas
+              pode atrapalhar as decisões
+            </p>
+          </div>
+          <div class="mainAbout-aboutUs-box">
+            <h3 class="mainAbout-aboutUs-box-subtitle">A solução</h3>
+            <img
+              class="mainAbout-aboutUs-box-img"
+              src="./img/arrow-down.svg"
+              alt=""
+            />
+            <p class="mainAbout-aboutUs-box-paragraph">
+              aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+            </p>
+          </div>
         </div>
-      </header>
+      </section>
     </main>
+    <script src="./js/button.js"></script>
   </body>
 </html>
